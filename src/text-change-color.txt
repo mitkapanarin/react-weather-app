@@ -1,0 +1,17 @@
+ 
+    in function App() vo App.js, 
+ 
+ 
+  const [isRed, setRed] = useState(false);
+  const [count, setCount] = useState(0);
+  
+  const increment = () => {
+    setCount(count + 1);
+    setRed(isRed)
+  };
+
+    in function App() vo App.js, after return word
+
+    <h1 className={isRed ? 'red' : ""}>Change my color!</h1>
+    <button onClick={increment}>Increment</button>
+    <h1>{count}</h1>

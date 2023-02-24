@@ -1,0 +1,7 @@
+    
+    in function App() vo App.js, 
+
+      <Tweet name="Mitka" message="This is a random tweet" likes="56"/>
+      <Tweet name="Karolina" message="I am 6 years old" likes="26"/>
+      <Tweet name="Maja" message="Lets go for a walk" likes="59"/>
+      <Tweet name="Ana" message="Let study" likes="48"/>
